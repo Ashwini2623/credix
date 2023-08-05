@@ -1,0 +1,127 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'routing.dart';
+
+// **************************************************************************
+// GoRouterGenerator
+// **************************************************************************
+
+List<RouteBase> get $appRoutes => [
+      $loginPageRoute,
+      $welcomePageRoute,
+      $registerPageRoute,
+      $navigationPageRoute,
+      $splashPageRoute,
+    ];
+
+RouteBase get $loginPageRoute => GoRouteData.$route(
+      path: '/login-page',
+      factory: $LoginPageRouteExtension._fromState,
+    );
+
+extension $LoginPageRouteExtension on LoginPageRoute {
+  static LoginPageRoute _fromState(GoRouterState state) => LoginPageRoute();
+
+  String get location => GoRouteData.$location(
+        '/login-page',
+      );
+
+  void go(BuildContext context) => context.go(location);
+
+  Future<T?> push<T>(BuildContext context) => context.push<T>(location);
+
+  void pushReplacement(BuildContext context) =>
+      context.pushReplacement(location);
+
+  void replace(BuildContext context) => context.replace(location);
+}
+
+RouteBase get $welcomePageRoute => GoRouteData.$route(
+      path: '/welcome-page',
+      factory: $WelcomePageRouteExtension._fromState,
+    );
+
+extension $WelcomePageRouteExtension on WelcomePageRoute {
+  static WelcomePageRoute _fromState(GoRouterState state) => WelcomePageRoute();
+
+  String get location => GoRouteData.$location(
+        '/welcome-page',
+      );
+
+  void go(BuildContext context) => context.go(location);
+
+  Future<T?> push<T>(BuildContext context) => context.push<T>(location);
+
+  void pushReplacement(BuildContext context) =>
+      context.pushReplacement(location);
+
+  void replace(BuildContext context) => context.replace(location);
+}
+
+RouteBase get $registerPageRoute => GoRouteData.$route(
+      path: '/register-page',
+      factory: $RegisterPageRouteExtension._fromState,
+    );
+
+extension $RegisterPageRouteExtension on RegisterPageRoute {
+  static RegisterPageRoute _fromState(GoRouterState state) =>
+      RegisterPageRoute();
+
+  String get location => GoRouteData.$location(
+        '/register-page',
+      );
+
+  void go(BuildContext context) => context.go(location);
+
+  Future<T?> push<T>(BuildContext context) => context.push<T>(location);
+
+  void pushReplacement(BuildContext context) =>
+      context.pushReplacement(location);
+
+  void replace(BuildContext context) => context.replace(location);
+}
+
+RouteBase get $navigationPageRoute => GoRouteData.$route(
+      path: '/navigation-page',
+      factory: $NavigationPageRouteExtension._fromState,
+    );
+
+extension $NavigationPageRouteExtension on NavigationPageRoute {
+  static NavigationPageRoute _fromState(GoRouterState state) =>
+      NavigationPageRoute();
+
+  String get location => GoRouteData.$location(
+        '/navigation-page',
+      );
+
+  void go(BuildContext context) => context.go(location);
+
+  Future<T?> push<T>(BuildContext context) => context.push<T>(location);
+
+  void pushReplacement(BuildContext context) =>
+      context.pushReplacement(location);
+
+  void replace(BuildContext context) => context.replace(location);
+}
+
+RouteBase get $splashPageRoute => GoRouteData.$route(
+      path: '/',
+      factory: $SplashPageRouteExtension._fromState,
+    );
+
+extension $SplashPageRouteExtension on SplashPageRoute {
+  static SplashPageRoute _fromState(GoRouterState state) => SplashPageRoute();
+
+  String get location => GoRouteData.$location(
+        '/',
+      );
+
+  void go(BuildContext context) => context.go(location);
+
+  Future<T?> push<T>(BuildContext context) => context.push<T>(location);
+
+  void pushReplacement(BuildContext context) =>
+      context.pushReplacement(location);
+
+  void replace(BuildContext context) => context.replace(location);
+}

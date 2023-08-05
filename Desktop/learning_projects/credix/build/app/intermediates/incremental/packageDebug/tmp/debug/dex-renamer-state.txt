@@ -1,0 +1,4 @@
+#Sat Aug 05 11:27:55 IST 2023
+base.0=/home/ashwini/Desktop/learning_projects/credix/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
